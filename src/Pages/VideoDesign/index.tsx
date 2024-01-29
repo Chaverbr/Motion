@@ -6,7 +6,7 @@ const VideoDesign = () => {
   return (
     <>
       <section className="w-screen h-screen relative">
-          <video src={montainVideo} autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover"></video>
+          <video src={montainVideo} autoPlay loop preload="auto" muted className="absolute top-0 left-0 w-full h-full object-cover"></video>
 
           <header className="w-full h-full bg-slate-800 opacity-85">
             <div className="flex h-1/5 w-full justify-between items-center px-16">
